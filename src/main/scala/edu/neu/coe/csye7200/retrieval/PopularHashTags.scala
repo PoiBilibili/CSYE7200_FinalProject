@@ -59,6 +59,7 @@ object PopularHashTags {
     // print the top 10
     sortedResults.print
 
+
     // set a checkpoint directory, and start
     ssc.checkpoint("test/checkpoint/")
     ssc.start()
