@@ -16,14 +16,6 @@ class JasonIngestSpec extends FlatSpec{
 
   behavior of "JasonIngest"
 
-  override def withFixture(test: NoArgTest) = { // Define a shared fixture
-    // Shared setup (run at beginning of each test)
-    try test()
-    finally {
-      // Shared cleanup (run at end of each test)
-    }
-  }
-
   "The number of Tweets" should "have the size of 1" in {
     val ingester = new Ingest[JasonIngest]()
     implicit val codec = Codec.UTF8

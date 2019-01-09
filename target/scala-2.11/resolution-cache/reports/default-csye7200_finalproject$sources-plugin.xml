@@ -4,10 +4,10 @@
 	<info
 		organisation="default"
 		module="csye7200_finalproject$sources"
-		revision="0.0.1"
+		revision="0.1.0"
 		conf="plugin"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190109104748"/>
+		date="20190109164258"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>
