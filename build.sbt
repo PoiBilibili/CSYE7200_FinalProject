@@ -24,3 +24,4 @@ libraryDependencies ++= Seq(
   "org.apache.spark" % "spark-streaming_2.11" % "2.1.0",
   "org.apache.bahir" %% "spark-streaming-twitter" % "2.1.0")
 
+libraryDependencies += "org.apache.spark" % "spark-streaming-kafka-0-10_2.11" % "2.3.0"

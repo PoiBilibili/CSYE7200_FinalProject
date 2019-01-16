@@ -56,10 +56,10 @@ object PopularHashTags {
     // sort the results by the count values
     val sortedResults = hashtagCounts.transform(rdd => rdd.sortBy(x => x._2, false))
 
-    // print the top 10
+    // print the top 1
     sortedResults.print
-
-
+    val backup = sortedResults;
+    sortedResults.repartition(1).saveAsTextFiles("/Users/zhoujin/scala-workspace/Project/CSYE7200_FinalProject/resources/data/hashtags/popularhashtags.txt")
     // set a checkpoint directory, and start
     ssc.checkpoint("test/checkpoint/")
     ssc.start()
