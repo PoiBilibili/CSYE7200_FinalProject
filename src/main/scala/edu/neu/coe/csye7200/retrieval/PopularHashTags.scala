@@ -11,7 +11,7 @@ import org.apache.spark.streaming.twitter._
   * reference:
   *
   * https://github.com/achoory/SparkStreaming_ExploringTwitterFeeds/blob/master/src/com/nus/sparkstreaming/PopularHashtags.scala
-  *
+  * http://bahir.apache.org/docs/spark/current/spark-streaming-twitter/
   */
 
 object PopularHashTags {
@@ -59,7 +59,7 @@ object PopularHashTags {
     // print the top 1
     sortedResults.print
     val backup = sortedResults;
-    sortedResults.repartition(1).saveAsTextFiles("/Users/zhoujin/scala-workspace/Project/CSYE7200_FinalProject/resources/data/hashtags/popularhashtags.txt")
+    sortedResults.repartition(1).saveAsTextFiles("resources/data/hashtags/popularhashtags")
     // set a checkpoint directory, and start
     ssc.checkpoint("test/checkpoint/")
     ssc.start()
