@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6e02516-06fd-4bf6-be73-929bb6172dd1" name="Default Changelist" comment="feat($retrieval): add popularHashTags&#10;&#10;Creat TwitterRetrieval to impl">
+    <list default="true" id="85a83b89-69a5-4f01-93e5-3d24e7ed4aee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/CSYE7200_FinalProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/CSYE7200_FinalProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/csye7200_finalproject-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/csye7200_finalproject-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/csye7200_finalproject-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/csye7200_finalproject-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
@@ -45,12 +50,31 @@
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-csye7200_finalproject_2.11-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-csye7200_finalproject_2.11-scala-tool.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-csye7200_finalproject_2.11-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-csye7200_finalproject_2.11-test-internal.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-csye7200_finalproject_2.11-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-csye7200_finalproject_2.11-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/checkpoint/.checkpoint-1552863113000.bk.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/checkpoint/.checkpoint-1552863113000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/checkpoint/.checkpoint-1552863114000.bk.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/checkpoint/.checkpoint-1552863114000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/checkpoint/.checkpoint-1552863115000.bk.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/checkpoint/.checkpoint-1552863115000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/checkpoint/.checkpoint-1552863116000.bk.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/checkpoint/.checkpoint-1552863116000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/checkpoint/.checkpoint-1552863117000.bk.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/checkpoint/.checkpoint-1552863117000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/checkpoint/checkpoint-1552863113000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/checkpoint/checkpoint-1552863113000.bk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/checkpoint/checkpoint-1552863114000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/checkpoint/checkpoint-1552863114000.bk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/checkpoint/checkpoint-1552863115000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/checkpoint/checkpoint-1552863115000.bk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/checkpoint/checkpoint-1552863116000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/checkpoint/checkpoint-1552863116000.bk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/checkpoint/checkpoint-1552863117000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/checkpoint/checkpoint-1552863117000.bk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/checkpoint/receivedBlockMetadata/log-1552863062005-1552863122005" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
     <ignored path="$PROJECT_DIR$/project/target/" />
@@ -65,142 +89,21 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="SBT">
-      <state>
-        <projects_view />
-      </state>
-    </system>
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/edu/neu/coe/csye7200/retrieval/PopularHashTags.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="61" column="76" lean-forward="true" selection-start-line="61" selection-start-column="76" selection-end-line="61" selection-end-column="76" />
-              <folding>
-                <element signature="e#40#65#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/edu/neu/coe/csye7200/ingest/JasonIngest.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-              <folding>
-                <element signature="e#37#56#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/edu/neu/coe/csye7200/retrieval/TwitterRetrieval.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/edu/neu/coe/csye7200/retrieval/Retrieval.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/edu/neu/coe/csye7200/ingest/Keys.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="73" selection-start-line="6" selection-start-column="73" selection-end-line="6" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.sbt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/edu/neu/coe/csye7200/ingest/Ingest.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="35" selection-start-column="35" selection-end-column="35" />
-              <folding>
-                <element signature="e#37#59#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="315">
+              <caret line="60" column="31" lean-forward="true" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Package Object" />
-        <option value="Scala Object" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="JingZhou &lt;zhouruge@163.com&gt;" />
-        <option value="Jing Zhou &lt;zhouruge@163.com&gt;" />
-      </list>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="dev" />
-      </map>
-    </option>
-    <option name="RESET_MODE" value="HARD" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/scala/edu/neu/coe/scala/Ingest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/edu/neu/coe/scala/ingest/Ingest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/edu/neu/coe/csye7200/retrieval/Retrieval.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/edu/neu/coe/csye7200/Ingest.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/edu/neu/coe/csye7200/retrieval/RetrievalTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/edu/neu/coe/csye7200/retrieval/twitter4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/scala/edu/neu/coe/csye7200/ingest/Ingest.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/edu/neu/coe/csye7200/ingest/JasonIngest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/edu/neu/coe/csye7200/ingest/JasonIngest.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/edu/neu/coe/csye7200/ingest/JasonIngestTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/edu/neu/coe/csye7200/ingest/TwitterRetrieval.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/edu/neu/coe/csye7200/ingest/Keys.scala" />
-        <option value="$PROJECT_DIR$/resources/data/scriptFile.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/edu/neu/coe/csye7200/retrieval/SparkSample.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/edu/neu/coe/csye7200/ingest/SparkSpec.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/edu/neu/coe/csye7200/dependency/SparkSample.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/edu/neu/coe/csye7200/ingest/JasonIngestSpec.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/edu/neu/coe/csye7200/dependency/SparkSpec.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/edu/neu/coe/csye7200/retrieval/popularHashTags.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/edu/neu/coe/csye7200/retrieval/TwitterRetrieval.scala" />
-        <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/src/main/scala/edu/neu/coe/csye7200/retrieval/Kafka.scala" />
-        <option value="$PROJECT_DIR$/resources/data/hashtags/popularhashtags.txt-1547661023000/part-00000" />
-        <option value="$PROJECT_DIR$/src/main/scala/edu/neu/coe/csye7200/Zeppelin/ZeppelinNote" />
-        <option value="$PROJECT_DIR$/src/main/scala/edu/neu/coe/csye7200/retrieval/PopularHashTags.scala" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
@@ -213,46 +116,60 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="CSYE7200_FinalProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csye7200_finalproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSYE7200_FinalProject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CSYE7200_FinalProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csye7200_finalproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSYE7200_FinalProject" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CSYE7200_FinalProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csye7200_finalproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSYE7200_FinalProject" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CSYE7200_FinalProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csye7200_finalproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSYE7200_FinalProject" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="hashtags" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csye7200_finalproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSYE7200_FinalProject" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="hashtags" type="462c0819:PsiDirectoryNode" />
+              <item name="popularhashtags-1553436812000" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csye7200_finalproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSYE7200_FinalProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CSYE7200_FinalProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csye7200_finalproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSYE7200_FinalProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CSYE7200_FinalProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csye7200_finalproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSYE7200_FinalProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CSYE7200_FinalProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csye7200_finalproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSYE7200_FinalProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -260,7 +177,7 @@
               <item name="csye7200" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CSYE7200_FinalProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csye7200_finalproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSYE7200_FinalProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -269,7 +186,7 @@
               <item name="ingest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CSYE7200_FinalProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csye7200_finalproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSYE7200_FinalProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -281,36 +198,19 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552863141978" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553436869177" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.scala.compiler.ScalaCompileServerForm" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="edu.neu.coe.csye7200.dependency" />
-      <recent name="edu.neu.coe.csye7200.retrieval" />
-      <recent name="edu.neu.coe.csye7200.ingest" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/data" />
-      <recent name="$PROJECT_DIR$/src/test/resources" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Zeppelin" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/resources/data" />
-      <recent name="$PROJECT_DIR$/src/test/resources/json" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -324,7 +224,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PopularHashTags">
+  <component name="RunManager">
     <configuration name="PopularHashTags" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="edu.neu.coe.csye7200.retrieval.PopularHashTags" />
       <module name="CSYE7200_FinalProject" />
@@ -338,87 +238,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="popularHashTags" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="edu.neu.coe.csye7200.retrieval.popularHashTags" />
-      <module name="CSYE7200_FinalProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.neu.coe.csye7200.dependency.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScalaTests in 'dependency'" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true">
-      <module name="CSYE7200_FinalProject" />
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <envs />
-      <setting name="testKind" value="All in package" />
-      <setting name="package" value="edu.neu.coe.csye7200.dependency" />
-      <buffered bufClass="edu.neu.coe.csye7200.dependency.SparkSpec" />
-      <buffered bufClass="edu.neu.coe.csye7200.dependency.SparkSpec" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScalaTests in 'ingest'" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true">
-      <module name="CSYE7200_FinalProject" />
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <envs />
-      <setting name="testKind" value="All in package" />
-      <setting name="package" value="edu.neu.coe.csye7200.ingest" />
-      <buffered bufClass="edu.neu.coe.csye7200.ingest.JasonIngestSpec" />
-      <buffered bufClass="edu.neu.coe.csye7200.ingest.JasonIngestSpec" />
-      <buffered bufClass="edu.neu.coe.csye7200.ingest.SparkSpec" />
-      <buffered bufClass="edu.neu.coe.csye7200.ingest.SparkSpec" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScalaTests in 'scala'" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true">
-      <module name="CSYE7200_FinalProject" />
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <envs />
-      <setting name="testKind" value="All in package" />
-      <setting name="package" value="" />
-      <buffered bufClass="edu.neu.coe.csye7200.dependency.SparkSpec" />
-      <buffered bufClass="edu.neu.coe.csye7200.dependency.SparkSpec" />
-      <buffered bufClass="edu.neu.coe.csye7200.ingest.JasonIngestSpec" />
-      <buffered bufClass="edu.neu.coe.csye7200.ingest.JasonIngestSpec" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.PopularHashTags" />
-        <item itemvalue="ScalaTest.ScalaTests in 'scala'" />
-        <item itemvalue="Application.popularHashTags" />
-        <item itemvalue="ScalaTest.ScalaTests in 'scala'" />
-        <item itemvalue="ScalaTest.ScalaTests in 'dependency'" />
       </list>
     </recent_temporary>
   </component>
@@ -455,13 +277,22 @@
     </option>
     <option name="projectSyncType">
       <map>
+        <entry key="$USER_HOME$/Documents/CSYE7200/Assignments/Assignment2/assignment-lazy" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../../CSYE7200" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../CSYE7200/CSYE7200/assignment-web-crawler" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../../CSYE7200/RPN" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../CSYE7200/assignment-functional-composition" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../../CSYE7200/assignment-helloworld" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../CSYE7200/assignment-lazy" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../../CSYE7200/assignment-movie-database" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../CSYE7200/assignment-random-state" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../CSYE7200/assignment-spark-wordcount" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../CSYE7200/lab-99" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../CSYE7200/lab-sorted" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../../CSYE7200/spark-example" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../../CSYE7200_FinalProject_Team2_Spring2017" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../../CSYE7200_FinalProject_Team2_Spring2017changed" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/CSYE7200_FinalProject" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../CSYE7200_FinalProject_Team2_Spring2017" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../../twitter-sentiment/twitter-sentiment-analysis" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../../wikipedia" value="PREVIEW" />
@@ -473,335 +304,71 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d6e02516-06fd-4bf6-be73-929bb6172dd1" name="Default Changelist" comment="" />
-      <created>1546983048374</created>
+      <changelist id="85a83b89-69a5-4f01-93e5-3d24e7ed4aee" name="Default Changelist" comment="" />
+      <created>1553436714743</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1546983048374</updated>
-      <workItem from="1546983049721" duration="4230000" />
-      <workItem from="1546994191676" duration="7750000" />
-      <workItem from="1547048849180" duration="4306000" />
-      <workItem from="1547062978734" duration="5364000" />
-      <workItem from="1547068373995" duration="2545000" />
-      <workItem from="1547074452379" duration="229000" />
-      <workItem from="1547156130298" duration="491000" />
-      <workItem from="1547229812695" duration="1277000" />
-      <workItem from="1547303070757" duration="702000" />
-      <workItem from="1547501391522" duration="741000" />
-      <workItem from="1547605822262" duration="3805000" />
-      <workItem from="1547659258798" duration="4021000" />
-      <workItem from="1552863592545" duration="190000" />
-      <workItem from="1552948577041" duration="813000" />
+      <updated>1553436714743</updated>
+      <workItem from="1553436717869" duration="111000" />
     </task>
-    <task id="LOCAL-00001" summary="feat($progect): initial commit&#10;&#10;New project for CSYE7200 final project.">
-      <created>1546984199329</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1546984199329</updated>
-    </task>
-    <task id="LOCAL-00002" summary="feat($JasonIngest): JasonIngest and JasonIngestSpec&#10;&#10;Add JasonIngest and the test for it.">
-      <created>1547051621672</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1547051621672</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="JasonIngestTest_The_number_of_Tweets_should_have_the_size_of_1_The_number_of_Tweets_should_match_pattern_The_number_of_Tweets_should_match_content - 2019.01.09 at 11h 03m 58s.xml">
-      <configuration name="JasonIngestTest.The number of Tweets should have the size of 1&#10;The number of Tweets should match pattern&#10;The number of Tweets should match content" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="JasonIngestTest_The_first_Tweet_should_match_the_content - 2019.01.09 at 11h 24m 51s.xml">
-      <configuration name="JasonIngestTest.The first Tweet should match the content" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="JasonIngestTest - 2019.01.09 at 11h 25m 07s.xml">
-      <configuration name="JasonIngestTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="JasonIngestSpec - 2019.01.09 at 11h 26m 22s.xml">
-      <configuration name="JasonIngestSpec" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="SparkSpec - 2019.01.09 at 16h 26m 57s.xml">
-      <configuration name="SparkSpec" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="SparkSpec - 2019.01.09 at 16h 27m 23s.xml">
-      <configuration name="SparkSpec" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ScalaTests_in_'ingest' - 2019.01.09 at 16h 27m 47s.xml">
-      <configuration name="ScalaTests in 'ingest'" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ScalaTests_in_'scala' - 2019.01.09 at 16h 32m 18s.xml">
-      <configuration name="ScalaTests in 'scala'" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ScalaTests_in_'scala' - 2019.01.09 at 16h 33m 50s.xml">
-      <configuration name="ScalaTests in 'scala'" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ScalaTests_in_'scala' - 2019.01.14 at 16h 32m 07s.xml">
-      <configuration name="ScalaTests in 'scala'" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46101000" />
+    <option name="totallyTimeSpent" value="111000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="950" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="950" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26739928" />
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Learn" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Build" weight="0.32983682" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32981133" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23076923" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32983682" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32830188" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" weight="0.32867134" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4993895" weight="0.18764569" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50061053" side_tool="true" weight="0.18764569" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32981133" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" visible="true" weight="0.24125874" />
-      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="sbt" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="sbt" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="feat($progect): initial commit&#10;&#10;New project for CSYE7200 final project." />
-    <MESSAGE value="feat($JasonIngest): JasonIngest and JasonIngestSpec&#10;&#10;Add JasonIngest and the test for it." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat($JasonIngest): JasonIngest and JasonIngestSpec&#10;&#10;Add JasonIngest and the test for it." />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/scala/edu/neu/coe/csye7200/retrieval/RetrievalTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/json/tweet1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="54" selection-start-column="54" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/edu/neu/coe/csye7200/ingest/TwitterRetrieval.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/edu/neu/coe/csye7200/ingest/package.scala" />
-    <entry file="file://$PROJECT_DIR$/resources/data/sparkspec.data" />
-    <entry file="file://$PROJECT_DIR$/resources/data/scriptFile.scala" />
-    <entry file="file://$PROJECT_DIR$/resources/data/FL_insurance_sample.csv" />
-    <entry file="file://$PROJECT_DIR$/resources/data/SacramentocrimeJanuary2006.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret column="26" selection-start-column="18" selection-end-column="26" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/edu/neu/coe/csye7200/retrieval/SparkSample.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/edu/neu/coe/csye7200/retrieval/twitter4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/edu/neu/coe/csye7200/ingest/IngestSpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/edu/neu/coe/csye7200/ingest/JasonIngestSpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-          <folding>
-            <element signature="e#37#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/popularhashtags.txt" />
-    <entry file="file://$PROJECT_DIR$/resources/popularhashtags.txt-1547607739000/part-00001" />
-    <entry file="file://$PROJECT_DIR$/resources/popularhashtags.txt-1547607739000/part-00002" />
-    <entry file="file://$PROJECT_DIR$/src/test/scala/edu/neu/coe/csye7200/dependency/SparkSpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-streaming_2.11/srcs/spark-streaming_2.11-2.1.0-sources.jar!/org/apache/spark/streaming/dstream/DStream.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="921" column="21" selection-start-line="921" selection-start-column="6" selection-end-line="921" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/edu/neu/coe/csye7200/dependency/SparkSample.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/data/hashtags/popularhashtags.txt-1547609807000/part-00003" />
-    <entry file="file://$PROJECT_DIR$/resources/data/hashtags/popularhashtags.txt-1547609807000/part-00004" />
-    <entry file="file://$PROJECT_DIR$/resources/data/hashtags/popularhashtags.txt-1547609807000/part-00005" />
-    <entry file="file://$PROJECT_DIR$/resources/data/hashtags/popularhashtags.txt-1547609807000/part-00006" />
-    <entry file="file://$PROJECT_DIR$/resources/data/hashtags/popularhashtags.txt-1547609807000/part-00001" />
-    <entry file="file://$PROJECT_DIR$/resources/data/hashtags/popularhashtags.txt-1547609807000/part-00002" />
-    <entry file="file://$PROJECT_DIR$/resources/data/hashtags/popularhashtags.txt-1547659918000/part-00004" />
-    <entry file="file://$PROJECT_DIR$/resources/data/hashtags/popularhashtags.txt-1547659918000/part-00003" />
-    <entry file="file://$PROJECT_DIR$/resources/data/hashtags/popularhashtags.txt-1547659918000/part-00002" />
-    <entry file="file://$PROJECT_DIR$/resources/data/hashtags/popularhashtags.txt-1547659918000/part-00001" />
-    <entry file="file://$PROJECT_DIR$/resources/data/hashtags/popularhashtags.txt-1547659913000/part-00001" />
-    <entry file="file://$PROJECT_DIR$/resources/data/hashtags/popularhashtags.txt-1547659903000/part-00001" />
-    <entry file="file://$PROJECT_DIR$/resources/data/hashtags/popularhashtags.txt-1547660135000/part-00002" />
-    <entry file="file://$PROJECT_DIR$/resources/data/hashtags/popularhashtags.txt-1547660703000/part-00000" />
-    <entry file="file://$PROJECT_DIR$/resources/data/hashtags/popularhashtags.txt-1547661023000/part-00000" />
-    <entry file="file://$PROJECT_DIR$/Zeppelin/ZeppelinNote" />
-    <entry file="file://$PROJECT_DIR$/resources/data/hashtags/popularhashtags.txt-1547667207000/part-00000" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/edu/neu/coe/csye7200/retrieval/Kafka.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#40#95#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/data/hashtags/popularhashtags-1552863117000/part-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/edu/neu/coe/csye7200/ingest/Ingest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-start-column="35" selection-end-column="35" />
-          <folding>
-            <element signature="e#37#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/edu/neu/coe/csye7200/ingest/JasonIngest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-          <folding>
-            <element signature="e#37#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/edu/neu/coe/csye7200/ingest/Keys.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="73" selection-start-line="6" selection-start-column="73" selection-end-line="6" selection-end-column="73" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/resources/data/hashtags/popularhashtags-1553436812000/part-00000">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/edu/neu/coe/csye7200/retrieval/PopularHashTags.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="61" column="76" lean-forward="true" selection-start-line="61" selection-start-column="76" selection-end-line="61" selection-end-column="76" />
-          <folding>
-            <element signature="e#40#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/edu/neu/coe/csye7200/retrieval/TwitterRetrieval.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/edu/neu/coe/csye7200/retrieval/Retrieval.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="315">
+          <caret line="60" column="31" lean-forward="true" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
         </state>
       </provider>
     </entry>
