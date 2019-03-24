@@ -7,7 +7,7 @@
 		revision="0.1.0"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190318183635"/>
+		date="20190324101214"/>
 	<dependencies>
 		<module organisation="org.apache.httpcomponents" name="httpcore">
 			<revision name="4.4.6" status="release" pubdate="20170107085008" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="122">
