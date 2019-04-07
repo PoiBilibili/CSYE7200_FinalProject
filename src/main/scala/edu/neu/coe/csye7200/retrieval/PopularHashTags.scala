@@ -48,8 +48,8 @@ object PopularHashTags {
     // map each hashtag to a key/value pair of (hashtag, 1) so we can count them up by adding up the values
     val hashtagKeyValues = hashtags.map(hashtag => (hashtag, 1))
 
-    // count them up over a 5 minute window sliding every one second
-    val hashtagCounts = hashtagKeyValues.reduceByKeyAndWindow((x, y) => x + y, (x, y) => x - y, Seconds(300), Seconds(1))
+    // count them up over a 5 minute window sliding every 30 second
+    val hashtagCounts = hashtagKeyValues.reduceByKeyAndWindow((x, y) => x + y, (x, y) => x - y, Seconds(300), Seconds(30))
     //  You will often see this written in the following shorthand:
     //val hashtagCounts = hashtagKeyValues.reduceByKeyAndWindow( _ + _, _ -_, Seconds(300), Seconds(1))
 

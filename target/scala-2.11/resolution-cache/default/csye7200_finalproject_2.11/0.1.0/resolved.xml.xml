@@ -4,7 +4,7 @@
 		module="csye7200_finalproject_2.11"
 		revision="0.1.0"
 		status="integration"
-		publication="20190324101210"
+		publication="20190406220523"
 	>
 		<description>
 		CSYE7200_FinalProject
@@ -47,5 +47,9 @@
 		<dependency org="org.apache.spark" name="spark-streaming_2.11" rev="2.1.0" conf="compile->default(compile)"/>
 		<dependency org="org.apache.bahir" name="spark-streaming-twitter_2.11" rev="2.1.0" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-streaming-kafka-0-10_2.11" rev="2.3.0" conf="compile->default(compile)"/>
+		<dependency org="edu.stanford.nlp" name="stanford-corenlp" rev="3.6.0" conf="compile->default(compile)">
+			<artifact name="stanford-corenlp" type="jar" ext="jar" conf="compile"/>
+			<artifact name="stanford-corenlp" type="jar" ext="jar" conf="compile" e:classifier="models"/>
+		</dependency>
 	</dependencies>
 </ivy-module>
