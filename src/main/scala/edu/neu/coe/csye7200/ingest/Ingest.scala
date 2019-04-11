@@ -10,3 +10,4 @@ class Ingest[T: Ingestible] extends (Source => Iterator[Try[T]]) {
 trait Ingestible[X] {
   def fromString(w: String): Try[X]
 }
+

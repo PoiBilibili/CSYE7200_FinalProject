@@ -1,5 +1,6 @@
 package edu.neu.coe.csye7200.retrieval
 
+import edu.neu.coe.csye7200.sentiment.CmpSentiment
 import org.apache.spark._
 import org.apache.spark.streaming._
 import org.apache.spark.streaming.twitter._

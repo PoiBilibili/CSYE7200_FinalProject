@@ -3,7 +3,7 @@ package edu.neu.coe.csye7200.sentiment
 import org.scalatest.{FlatSpec, Matchers}
 /**
   * @author JingZhou
-  * created on 8th,Jan,2019
+  * created on 09th,Apr,2019
   *
   * reference:
   * http://www.scalatest.org/at_a_glance/FlatSpec
@@ -25,5 +25,6 @@ class SentimentUtilsSpec extends FlatSpec{
     val score5 = senti.calcSentimen("I like it!");
     val score6 = senti.calcSentimen("I love it!")
     assert(score5 < score6)
+
   }
 }
