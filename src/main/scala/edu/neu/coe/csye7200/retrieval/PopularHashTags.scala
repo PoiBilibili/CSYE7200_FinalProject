@@ -1,6 +1,7 @@
 package edu.neu.coe.csye7200.retrieval
 
 import edu.neu.coe.csye7200.sentiment.CmpSentiment
+import org.apache.log4j.{Level, Logger}
 import org.apache.spark._
 import org.apache.spark.streaming._
 import org.apache.spark.streaming.twitter._
@@ -17,10 +18,11 @@ import org.apache.spark.streaming.twitter._
 
 object PopularHashTags {
   def main(args: Array[String]): Unit ={
-    runPopularHashTags
+    runPopularHashTags()
   }
 
-  def runPopularHashTags(): Unit = {
+  def runPopularHashTags(k: String = ""): Unit = {
+    Logger.getLogger("org").setLevel(Level.ERROR)
 
     // create a SparkContext
     val sc = new SparkContext("local[*]", "PopularHashtags")
@@ -35,8 +37,10 @@ object PopularHashTags {
     System.setProperty("twitter4j.oauth.accessTokenSecret", Keys.accessTokenSecret)
 
     // create a DStream from Twitter using our streaming context
-    val tweets = TwitterUtils.createStream(ssc, None)
-
+    val tweets = k match {
+      case "" => TwitterUtils.createStream(ssc, None)
+      case _  => TwitterUtils.createStream(ssc, None, Seq(k))
+    }
     // extract the text of each status update into DStreams using map()
     val statuses = tweets.map(status => status.getText())
 
@@ -50,7 +54,7 @@ object PopularHashTags {
     val hashtagKeyValues = hashtags.map(hashtag => (hashtag, 1))
 
     // count them up over a 5 minute window sliding every 30 second
-    val hashtagCounts = hashtagKeyValues.reduceByKeyAndWindow((x, y) => x + y, (x, y) => x - y, Seconds(300), Seconds(30))
+    val hashtagCounts = hashtagKeyValues.reduceByKeyAndWindow((x, y) => x + y, (x, y) => x - y, Seconds(600), Seconds(1))
     //  You will often see this written in the following shorthand:
     //val hashtagCounts = hashtagKeyValues.reduceByKeyAndWindow( _ + _, _ -_, Seconds(300), Seconds(1))
 
@@ -60,10 +64,11 @@ object PopularHashTags {
     // print the top 1
     sortedResults.print
     val backup = sortedResults;
-    sortedResults.repartition(1).saveAsTextFiles("resources/data/hashtags/popularhashtags")
+    //sortedResults.repartition(1).saveAsTextFiles("resources/data/hashtags/popularhashtags")
     // set a checkpoint directory, and start
     ssc.checkpoint("test/checkpoint/")
     ssc.start()
     ssc.awaitTermination()
+    sortedResults.repartition(1).saveAsTextFiles("resources/data/hashtags/popularhashtags")
   }
 }

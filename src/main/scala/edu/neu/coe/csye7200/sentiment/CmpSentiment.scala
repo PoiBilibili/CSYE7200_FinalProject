@@ -17,7 +17,10 @@ object CmpSentiment {
   }
 
   def cmpTwoString(k1:String="", k2:String=""): Boolean ={
-    calcSentimentFromSearchApi(k1) > calcSentimentFromSearchApi(k2)
+    val result = calcSentimentFromSearchApi(k1) > calcSentimentFromSearchApi(k2)
+    if(result) print(k1 + "'s score is higher than "+ k2 )
+    else print(k2 + "'s score is higher than "+ k1 )
+    result
   }
   def calcSentimentFromSearchApi(k: String = "", count: Int = 90, catchlog: Boolean = true): Double = {
     val ingester = new Ingest[Response]()
