@@ -64,7 +64,7 @@ object PopularHashTags {
     // print the top 1
     sortedResults.print
     val backup = sortedResults;
-    //sortedResults.repartition(1).saveAsTextFiles("resources/data/hashtags/popularhashtags")
+    sortedResults.repartition(1).saveAsTextFiles("resources/data/hashtags/popularhashtags")
     // set a checkpoint directory, and start
     ssc.checkpoint("test/checkpoint/")
     ssc.start()
