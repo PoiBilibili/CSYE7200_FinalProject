@@ -7,7 +7,8 @@ object User {
     val inputstr = Console.readLine().split(" ")
     if (inputstr.size == 0) println("Invalid input!") else {
       inputstr(0) match {
-        case "hashtags" => PopularHashTags.runPopularHashTags(inputstr(1))
+        case "hashtags" => {if(inputstr.size>1) PopularHashTags.runPopularHashTags(inputstr(1))
+                            else PopularHashTags.runPopularHashTags()}
         case "compare" => CmpSentiment.cmpTwoString(inputstr(1), inputstr(2))
         case _ => println("Invalid input.")
       }
